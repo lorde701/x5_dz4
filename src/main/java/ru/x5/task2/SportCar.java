@@ -1,7 +1,5 @@
 package ru.x5.task2;
 
-//        7.  Создать производный от Car класс - SportCar, характеризуемый также предельной скоростью start(), stop().
-//        Метод start – выводит на экран «SportCar поехал», метод stop -  «SportCar остановился».
 public class SportCar extends Car{
     public SportCar(String model, String type, float weight, Engine engine) {
         super(model, type, weight, engine);
