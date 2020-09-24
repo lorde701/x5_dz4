@@ -1,8 +1,11 @@
 package ru.x5.task2;
 
 public class SportCar extends Car{
-    public SportCar(String model, String type, float weight, Engine engine) {
+    private int maxSpeed;
+
+    public SportCar(String model, String type, float weight, Engine engine, int maxSpeed) {
         super(model, type, weight, engine);
+        this.maxSpeed = maxSpeed;
     }
 
     public void start() {
@@ -19,5 +22,6 @@ public class SportCar extends Car{
         System.out.println("Класс автомобиля: " + type);
         System.out.println("Вес автомобиля: " + weight);
         System.out.println("Двигатель автомобиля: " + engine);
+        System.out.println("Предельная скорость: " + maxSpeed);
     }
 }

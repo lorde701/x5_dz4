@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Car[] array = {
                 new SportCar("Audi R8", "Спортивный автомобиль", 1595f,
-                        new Engine(420, "unknown")),
+                        new Engine(420, "unknown"), 320),
 
                 new Lorry("KamAZ 65207", "Грузовой автомобиль", 26000f,
-                        new Engine(401, "Mercedes-Benz"))
+                        new Engine(401, "Mercedes-Benz"), 14725)
 
         };
 
